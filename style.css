@@ -157,6 +157,12 @@ margin-left: 26px;
     padding-right: 20px;
     
 }
+
+.menu-list{
+    position: relative;
+}
+.mega-box{
+    position: absolute;
 }
 .banner-bg{
     margin-top: 22px;
