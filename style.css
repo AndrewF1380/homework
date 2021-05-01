@@ -163,6 +163,27 @@ margin-left: 26px;
 }
 .mega-box{
     position: absolute;
+    width: 846px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+}
+
+.item-flex{
+    display: flex;
+    flex-direction: column;
+}
+.item-hedding{
+    border-bottom: 1px solid #e8e8e8;
+    color: #232323;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    width: 235px;
 }
 .banner-bg{
     margin-top: 22px;
