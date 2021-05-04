@@ -191,8 +191,11 @@ margin-left: 26px;
     border-top: 1px solid  #e8e8e8;
     border-left: 1px solid  #e8e8e8;
 }
-
-
+.last:hover .mega-box{
+    right: -155px;
+}
+.last:hover .mega-box::before{
+    left: 670px;
 }
 
 .item-flex{
