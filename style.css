@@ -134,7 +134,7 @@ margin-left: 26px;
     padding-bottom: 20px;
     list-style-type:none
 }
-.navi__pozition a{
+.catalog_menu {
     text-decoration: none;
     width: 680px;
     height: 10px;
@@ -157,6 +157,9 @@ margin-left: 26px;
     padding-right: 20px;
     
 }
+.menu-list:hover .mega-box{
+    display: flex ;
+}
 
 .menu-list{
     position: relative;
@@ -168,11 +171,32 @@ margin-left: 26px;
     background-color: #ffffff;
     border: 1px solid #e8e8e8;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    top: 30px;
+    display: none;
+}
+
+.mega-box::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+  
+    position: absolute;
+    top: -7px;
+    background-color:#ffffff;
+    left: 29px;
+    transform: rotate(45deg);
+    border-top: 1px solid  #e8e8e8;
+    border-left: 1px solid  #e8e8e8;
+}
+
+
 }
 
 .item-flex{
-    display: flex;
-    flex-direction: column;
+   
 }
 .item-hedding{
     border-bottom: 1px solid #e8e8e8;
@@ -185,6 +209,31 @@ margin-left: 26px;
     text-transform: uppercase;
     width: 235px;
 }
+
+.menu-link{
+    width: 235px;
+    color: #646464;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    /* Text style for "Dresses ," */
+    font-style: normal;
+    letter-spacing: 0.35px;
+    text-decoration: none;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-link:hover{
+    
+    color: #f16d7f;
+}
+
 .banner-bg{
     margin-top: 22px;
     background-color: #e8e8e8;
