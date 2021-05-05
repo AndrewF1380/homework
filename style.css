@@ -422,3 +422,125 @@ margin-left: 26px;
 
 }
 /*fffffff fffff */
+.items-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+}
+
+.items-txt p {
+    color: #9f9f9f;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    margin-top: 16px;
+}
+.item {
+    position: relative;
+    width: 263px;
+    margin-bottom: 40px;
+}
+
+.item:hover .box-add {
+    display: flex;
+}
+
+.item:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+.product {
+    width: 263px;
+    display: block;
+    text-decoration: none;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-text-box {
+    padding: 20px 15px;
+}
+
+.product-text {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.box-product {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-add {
+    position: absolute;
+    top: 98px;
+    display: none;
+    justify-content: center;
+    width: 100%;
+}
+
+.add {
+    border: 1px solid #ffffff;
+    padding: 8px 12px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.add:hover {
+    box-shadow: 0 0 10px #fff;
+}
+
+.add-img {
+    margin-right: 7px;
+}
+.item:hover .product-img {
+    filter: brightness(50%);
+}
+.bap {
+    display: flex;
+    justify-content: center;
+}
+.baplink {
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    display: flex;
+    padding: 23px 18px;
+    border: transparent 1px solid;
+}
+
+.baplink:hover {
+    background-color: #fff;
+    color: #f16d7f;
+    border: 1px solid #f16d7f;
+}
